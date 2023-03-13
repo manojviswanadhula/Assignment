@@ -1,0 +1,9 @@
+location:
+  latitude: 45.121134697251
+  longitude: -126.60037996258
+
+
+server:
+  port: 8080
+
+    
