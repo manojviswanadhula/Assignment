@@ -1,9 +1,13 @@
 location:
-  latitude: 45.121134697251
-  longitude: -126.60037996258
+  latitude: 7
+  longitude: 9
 
 
 server:
   port: 8080
 
     
+spring:
+  mvc:
+    converters:
+      preferred-json-mapper: gson

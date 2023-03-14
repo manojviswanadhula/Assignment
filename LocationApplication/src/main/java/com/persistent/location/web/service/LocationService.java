@@ -12,14 +12,9 @@ public class LocationService {
 
 		JsonObject json = new JsonObject();
 
-		if (entity != null) {
-			json.addProperty("latitude", entity.getLatitude());
-			json.addProperty("longitude", entity.getLongitude());
-			return json;
-		} 
-		else {
-			return null;
-		}
+		json.addProperty("latitude", entity.getLatitude());
+		json.addProperty("longitude", entity.getLongitude());
+		return json;
 
 	}
 }
